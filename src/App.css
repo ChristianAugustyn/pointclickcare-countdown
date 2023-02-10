@@ -58,6 +58,18 @@
   .timer {
     flex-direction: row;
   }
+
+  .pcc-logo {
+    width: 250px;
+  }
+  
+  .celebrate {
+    font-size:100px;
+  }
+  
+  .times-up {
+    font-size: 50px;
+  }
 }
 
 .timer-item {
@@ -69,25 +81,29 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5px;
+  padding: 2px;
   text-transform: uppercase;
-  margin: 10px;
+  margin: 5px;
   color: whitesmoke;
 }
 
+.period {
+  font-size: 15px;
+}
+
 .period-value {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .pcc-logo {
-  width: 200px;
+  width: 130px;
   border-radius: 50%;
 }
 
 .celebrate {
-  font-size:100px;
+  font-size:80px;
 }
 
 .times-up {
-  font-size: 50px;
+  font-size: 40px;
 }
