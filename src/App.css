@@ -45,12 +45,19 @@
   align-items: center;
 }
 
+
 .timer {
   margin: 40px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .timer {
+    flex-direction: row;
+  }
 }
 
 .timer-item {
