@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import pccLogo from './images/pcc-resources-og.png';
 import ConfettiExplosion from 'react-confetti-explosion';
@@ -38,7 +37,6 @@ const calculateTimeLeft = () => {
   }
   return timeLeft;
 };
-
 
 function App() {
   const [time, setTime] = useState(calculateTimeLeft());
